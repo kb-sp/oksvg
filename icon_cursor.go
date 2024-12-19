@@ -354,7 +354,7 @@ func (c *IconCursor) readStartElement(se xml.StartElement) (err error) {
 	if err != nil {
 		e := fmt.Sprintf("error during processing svg element %s: %s", se.Name.Local, err.Error())
 		if c.returnError(e) {
-			err = errors.New(e)
+			return errors.New(e)
 		}
 		err = nil
 	}
@@ -375,7 +375,7 @@ func (c *IconCursor) adaptClasses(pathStyle *PathStyle, className string) {
 		return
 	}
 	for k, v := range c.icon.classes[className] {
-		c.readStyleAttr(pathStyle, k, v)
+		_ = c.readStyleAttr(pathStyle, k, v)
 	}
 }
 
