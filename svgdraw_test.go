@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/srwiley/oksvg"
-	. "github.com/srwiley/rasterx"
-	//"github.com/srwiley/go/scanFT"
+	. "github.com/kb-sp/oksvg"
+	. "github.com/kb-sp/rasterx"
+	//"github.com/kb-sp/go/scanFT"
 )
 
 const testArco = `M150,350 l 50,-55

@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/srwiley/rasterx"
+	"github.com/kb-sp/rasterx"
 	"golang.org/x/image/colornames"
 	"golang.org/x/net/html/charset"
 )

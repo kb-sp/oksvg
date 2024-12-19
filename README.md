@@ -1,3 +1,9 @@
+# FORK OF srwiley/oksvg
+
+Since srwiley/oksvg has been a dead repo for a while, this is a stand-in using updated modules.
+
+If anyone knows of a better Go SVG rasterizer (canvas' SVG is inferior, IME), please let me know via an Issue.
+
 # oksvg
 oksvg is a rasterizer for a partial implementation of the SVG2.0 specification in golang.
 
